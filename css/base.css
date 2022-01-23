@@ -7,18 +7,12 @@ header, footer {
     background-color: #2D2643;
     display: flex;
     align-items: center;
-    padding: 0 1em;
+    padding: 0.6em 2em;
     width: 100%;
 }
 
-header a {
-	text-decoration: none;
-}
-
 .title {
-    font-weight: bold;
-    font-size: 48px;
-
+    text-decoration: none;
     background: linear-gradient(to right, #5F28F8, #B223F0, #FF1FE9);
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -27,12 +21,18 @@ header a {
     padding: 0.2em;
 }
 
+.title h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
 main {
 	margin: 6em auto;
     max-width: 80%;
 }
 
 .profile-btn {
+    font-size: 1.5em;
     margin-right: 1em;
 }
 
@@ -49,7 +49,7 @@ footer {
 
 .copyright { 
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.4em;
     height: auto;
     padding: 10px 10px 10px 10px;
 
