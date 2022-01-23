@@ -2,6 +2,8 @@ header {
 	display: flex;
 	justify-content: space-around;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 header, footer {
@@ -31,6 +33,12 @@ header a {
 main {
 	margin: 6em auto;
     max-width: 80%;
+}
+
+
+.fa-user{
+    color: #cb21ed;
+  
 }
 
 footer {
