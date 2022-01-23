@@ -1,16 +1,13 @@
 header {
-	display: flex;
-	justify-content: space-around;
     margin-bottom: 50px;
-    display: flex;
     justify-content: space-between;
 }
 
 header, footer {
     background-color: #2D2643;
     display: flex;
-    justify-content: center;
-    height: fit-content;
+    align-items: center;
+    padding: 0 1em;
     width: 100%;
 }
 
@@ -35,13 +32,16 @@ main {
     max-width: 80%;
 }
 
+.profile-btn {
+    margin-right: 1em;
+}
 
 .fa-user{
     color: #cb21ed;
-  
 }
 
 footer {
+    justify-content: center;
     margin-top: 12px;
     position: absolute;
     bottom: 0;
