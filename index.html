@@ -12,12 +12,15 @@
 
 <body>
     <header>
-        <a href="/index.html">
-            <h1 class="title">Femhoot</h1>
+        <a href="/index.html" class="title">
+            <h1>Femhoot</h1>
+        </a>
+        <a href="profile.html" class="profile-btn">
+            <i class="fas fa-user"></i>
         </a>
     </header>
-
-    <main>
+    
+    <main id="login-container">
         <form id="login-form">
             <div class="mb-3">
                 <input type="text" class="form-control" id="inputName" placeholder="Nombre">
@@ -26,7 +29,7 @@
                 <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
             <div class="mb-3">
-                <button type="submit" class="btn">Login</button>
+                <button type="submit" class="btn" id="loginBtn"><a href="./game.html" class="login-link">Login</a></button>
             </div>
         </form>
     </main> 
