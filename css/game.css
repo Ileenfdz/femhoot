@@ -16,15 +16,6 @@
     
 }
 
-.profile-link {
-    text-decoration: none;
-    color:#312948;
-}
-
-.profile-link:hover {
-    color:white;
-}
-
 h2{
     display:flex;
     align-items:center;
@@ -98,5 +89,3 @@ h2{
     text-align: center;
     border-radius:10px;
 }
-
-
