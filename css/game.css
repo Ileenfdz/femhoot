@@ -1,68 +1,62 @@
-h2{
-   color:#cb21ed;
+#game-container {
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+}
+
+#game-container h2{
+    color:#cb21ed;
 }
 
 #show_button{
     background-color: #cb21ed;  
     height: 2.5em;
-    width: 4.70em;
     border-radius:10px;
     display: flex;
     align-items:center;
+    align-self: center;
     justify-content: space-around;
     margin-top:  1.25em;
-    margin-left: 7.81em;
+    width: 4.70em;
 }
 
-h2{
-    display:flex;
-    align-self: center;
-}
-
-main{
-    display: flex;
-    justify-content: center;
-    height: 80%;
-
-}
-
-.fun_facts{
+#fun_facts{
     background-color:#312948 ;
-    margin-left: 2.5em;
+    display: flex;
+    flex-direction: column;
     padding: 1.25em;
     width: 50%;
     border: 1px solid red;
     
 }
 
-.questions{
+#questions{
     background-color:#312948 ;
-    margin-left: 2.5em;
+    padding: 4em; 
+    border: 1px solid red;
     width: 50%;
-    padding: 1.25em; 
-    border: 1px solid red
 }
 
 #question-text{
     color: #312948;
-    padding: 1.25em;
-    min-height: fit-content;
     background-color: #e5e5e5;
     border-radius:10px;
+    min-height: fit-content;
+    margin-bottom: 3em;
+    padding: 2.5em;
     width: 100%;
 }
 
-.answers{
+#answers{
     background-color:#312948 ;
-    width: 100%;
-    padding: 2.5em;
-    min-width:fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width:fit-content;
+    width: 100%;
 }
 
-.answers button{
+#answers button{
     width: 100%;
     height: 40px;
 }
@@ -71,7 +65,7 @@ main{
     background-color: #e5e5e5;
     text-align: center;
     border-radius:10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #false-answer{
