@@ -1,6 +1,4 @@
-@import './header-footer.css';
-@import './input-login.css';
-@import './button-login.css';
+@import './imports.css';
 
 *{
 	margin: 0;

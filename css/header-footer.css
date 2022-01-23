@@ -1,13 +1,13 @@
+header {
+    margin-bottom: 50px;
+}
+
 header, footer {
     width: 100%;
     height: fit-content;
     display: flex;
     justify-content: center;
     background-color: #2D2643;
-}
-
-header {
-    margin-bottom: 50px;
 }
 
 .title {
