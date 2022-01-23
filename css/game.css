@@ -4,5 +4,39 @@ h2{
 
 #show_button{
     background-color: #cb21ed;  
+    height: 2.5rem;
+    width: 4.688rem;
+    border-radius:10px;
+    display: flex;
+    
+}
+
+h2{
+    display:flex;
+    align-self: center;
+}
+
+main{
+    display: flex;
+    
+}
+
+.fun_facts{
+    background-color:#312948 ;
+    margin-left: 2.5rem;
+    width: 25rem;
+    padding: 1.25rem;
+}
+
+.questions{
+    background-color:#312948 ;
+    margin-left: 2.5rem;
+    width: 25rem;
+    padding: 1.25rem; 
+}
+
+.question_text{
+
+    color: greenyellow;
 }
 
