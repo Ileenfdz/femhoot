@@ -25,15 +25,13 @@
     display: flex;
     flex-direction: column;
     padding: 1.25em;
+    margin-right: 4em;
     width: 50%;
-    border: 1px solid red;
-    
 }
 
 #questions{
     background-color:#312948 ;
     padding: 4em; 
-    border: 1px solid red;
     width: 50%;
 }
 
