@@ -19,6 +19,7 @@ h2{
 main{
     display: flex;
     justify-content: center;
+    height: 80%;
 
 }
 
@@ -26,9 +27,7 @@ main{
     background-color:#312948 ;
     margin-left: 2.5em;
     width: 30%;
-    /* height: 80%; */
     padding: 1.25em;
-    min-height: 100%; 
     border: 1px solid red
 }
 
@@ -38,13 +37,12 @@ main{
     width: 25em;
     padding: 1.25em; 
     max-width: 33.82em;
-    max-height: 30.11em;
     border: 1px solid red
 }
 
 .question_text{
     color: greenyellow;
-    max-height: 15.68em;
+    min-height: fit-content;
 }
 
 
