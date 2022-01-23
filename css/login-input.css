@@ -1,4 +1,4 @@
-.input-login-div, .button-login-div {
+.login-input-div, .login-button-div {
     display: flex;
     justify-content: center;
 }
