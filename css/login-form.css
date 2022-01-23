@@ -1,3 +1,8 @@
+#login-container {
+    background: url("../assets/pc-woman.png") no-repeat bottom left;
+    min-height: 20em;
+}
+
 #login-form {
     margin: 2em auto;
     text-align: center;
