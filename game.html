@@ -15,34 +15,26 @@
         <a href="/index.html" id="title">
             <h1>Femhoot</h1>
         </a>
-        <a href="profile.html" id="profile-btn">
-            <i class="fas fa-user"></i>
-        </a>
+        <div id="">
+            <a href="quiz.html">Quiz</a>
+            <a href="profile.html" id="profile-btn">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
     </header>
     
     <main id="game-container">
-       <section id="fun_facts">
+       <div class="button-login-div">
             <h2>Fun facts</h2>
-            <button id="show-button">Show</button>         
-            <p id="fun-fact-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa autem voluptatibus quam reprehenderit, impedit nisi, mollitia accusamus similique provident sint ipsa distinctio quia dolorum perspiciatis doloribus et sequi. Deserunt?</p>
-       </section>
-
-       <section id="questions">
-            <div id="question-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias temporibus suscipit ut et, magni nam perspiciatis doloribus ab possimus delectus. Suscipit quaerat sapiente omnis veniam adipisci fugit nihil! Inventore, velit.
-            </div>
-
-            <div id="answers">
-                <button id="true-answer">Yes</button>
-                <button id="false-answer">No</button>
-            </div>
-           
-       </section>
+            <button id="show-button">Show</button>    
+            <div id="section-fact"></div>     
+       </div>
     </main> 
 
     <footer>
         <h3 class="copyright">Copyright © 2022 Team 8</h3>
     </footer>
-    <script src="./scripts/index.js" type="module"></script>
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/modules/getName.js"></script>
 </body>
 </html>
