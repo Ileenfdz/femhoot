@@ -8,7 +8,10 @@ h2{
     width: 4.70em;
     border-radius:10px;
     display: flex;
-    
+    align-items:center;
+    justify-content: space-around;
+    margin-top:  1.25em;
+    margin-left: 7.81em;
 }
 
 h2{
@@ -26,9 +29,10 @@ main{
 .fun_facts{
     background-color:#312948 ;
     margin-left: 2.5em;
-    width: 30%;
     padding: 1.25em;
-    border: 1px solid red
+    width: 60%;
+    border: 1px solid red;
+    
 }
 
 .questions{
@@ -41,9 +45,31 @@ main{
 }
 
 .question_text{
-    color: greenyellow;
+    color: #312948;
+    padding: 1.25em;
     min-height: fit-content;
+    background-color: #e5e5e5;
+    border-radius:10px;
 }
 
+.answers{
+    background-color:#312948 ;
+    width: 100%;
+    /* min-width: 200px; */
+    padding: 2.5em;
+    min-width:fit-content;
+}
+
+.true_answer{
+    background-color: #e5e5e5;
+    text-align: center;
+    border-radius:10px;
+}
+
+.false_answer{
+    background-color: #e5e5e5;
+    text-align: center;
+    border-radius:10px;
+}
 
 
